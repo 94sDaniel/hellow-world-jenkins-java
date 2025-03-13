@@ -4,6 +4,7 @@
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../PruebaTecnica" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../adidasUsShoppingCar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../serenity" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../serenity-junit-starter" vcs="Git" />
   </component>

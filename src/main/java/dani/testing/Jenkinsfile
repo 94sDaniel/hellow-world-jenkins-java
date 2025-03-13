@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+
+    stages {
+        stages ('Build') {
+            steps{
+                script {
+                    sh 'javac src/main/java/dani/testing/App.java'
+                    sh 'cd src ; jar cf App.jar main/java/dani/testing/App.java'
+                }
+            }
+        }
+    }
+
+}
